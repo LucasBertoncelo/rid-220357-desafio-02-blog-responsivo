@@ -1,0 +1,323 @@
+
+html {
+          font-family: "Montserrat", sans-serif;
+}
+
+#header-titulo {
+          background-color: #02A28F; 
+}
+
+#h1-titulo {
+          color: white;
+          font-size: 2rem;
+          font-style: bold;
+          font-weight: 700;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          padding-left: 2.5rem;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+}
+
+                                   /* seção da imagem principal e dos cards laterais (posts populares) */
+
+#section1 {
+          display: flex;
+          flex-direction: row;   
+}
+
+#banner-image {
+          max-width: 100%;
+          height: auto;
+          margin-left: 1rem;
+}
+
+#header-posts-populares {
+          color: white;
+          font-size: 1.2rem;
+          font-style: bold;
+          font-weight: 700;
+          background-color: #02A28F;
+          border-radius: 0.5rem;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12);
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          padding-left: 1rem;
+          padding-right: 18rem;
+          
+}
+
+#section1 ul {
+          list-style-type: none;
+          display: grid;
+          padding-left: 1rem;
+          margin-right: 0;
+          margin-top: 0.7rem;
+          margin-bottom: 2rem;
+          gap: 1rem;
+}
+
+#section1 ul li {
+          display: flex;
+          gap: 1rem;
+          width: 100%;
+          box-sizing: border-box;
+}
+
+#section1 ul li img {
+          max-width: 100%;
+          height: auto;
+          padding-left: 0.5rem;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+}
+
+#section1 ul li h2 {
+          font-size: 1.1rem;
+          font-weight: 700;
+}
+
+#list-p {
+          margin-top: 0;
+          padding-top: 0.3rem;
+          font-size: 0.8rem;
+          font-weight: 500;
+          color: #555;
+}
+
+#list-item-01 {
+          color: black;
+          font-size: 0.4rem;
+          background-color: #FFFFFF;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12);
+          border-radius: 0.5rem;
+          cursor: pointer;
+}
+#list-item-02 {
+          color: black;
+          font-size: 0.4rem;
+          background-color: #FFFFFF;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12);
+          border-radius: 0.5rem;
+          cursor: pointer;
+}
+
+#list-item-03 {
+          color: black;
+          font-size: 0.4rem;
+          background-color: #FFFFFF;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12);
+          border-radius: 0.5rem;
+          cursor: pointer;
+}
+
+                                                  /* seção dos banners e categorias */
+
+#section2 {
+          display: flex;
+          flex-direction: row; 
+}
+
+#header-banners-articles {
+          display: flex;
+}
+
+#header-banners-articles h3 {
+          color: white;
+          font-size: 1.2rem;
+          font-weight: 700;
+          font-style: bold;
+          background-color: #02A28F;
+          border-radius: 0.5rem; 
+          margin-left: 2.1rem;
+          padding-left: 1rem;
+          padding-right: 0;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+}
+
+#h3-link {
+          color: white;
+          font-size: 1rem;
+          font-weight: 400;
+          padding-left: 27rem;
+          padding-right: 1rem;
+}
+
+#banners-section-02 {    
+          display: grid;
+          grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+          grid-template-rows: repeat(2, 1fr);    /* 2 linhas */
+          gap: 1.5rem;                           /* Espaço entre os blocos */
+          list-style: none;
+          padding-left: 2rem;
+}
+
+#banners-section-02 li {
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12);
+          border-radius: 1rem;
+          padding-left: 0.1rem;
+          padding-right: 0.1rem;
+          cursor: pointer;
+}
+
+#banners-section-02 li h4 {
+          font-size: 1.3rem;
+          padding-left: 0.5rem;
+}
+
+#banners-section-02 li h5 {
+          font-size: 0.9rem;
+          padding-left: 0.5rem;
+}
+
+#banners-section-02 li p {
+          font-size: 0.9rem;
+          padding-left: 0.5rem;
+}
+
+#banners-section-02 li img {
+          width: 100%;
+          height: auto;
+}
+
+.banners-section-02-article-categories {
+          color: #02A28F ;
+}
+
+#div-section-side-categories {
+         margin-left: 0;
+         margin-right: 1.5rem;
+}
+
+#header-bar-section-categories {
+          color: white;
+          font-size: 0.5rem;
+          font-weight: 600;
+          font-style: bold;
+          background-color: #02A28F;
+          padding-top: 0.15rem;
+          padding-bottom: 0.15rem;
+          margin-top: 1.2rem;
+          padding-left: 1rem;
+          padding-right: 23.5rem;
+          border-radius: 0.5rem;   
+          margin-right: 3rem;  
+          margin-bottom: 1rem;
+}
+
+#div-section-side-categories ul li {
+          margin-left: 0;
+          margin-right: 0;
+          padding-left: 0;
+          
+}
+
+#ul-div-section-side-categories {
+          list-style: none;
+}
+
+#footer {
+          color: white;
+          background-color: #02A28F;
+          text-align: center;
+          padding: 1rem;
+}
+
+/* Media Queries - Tablets e Dispositivos Médios */
+@media (max-width: 768px) {
+          #h1-titulo {
+                    font-size: 1.5rem;
+                    padding-left: 1rem;
+          }
+
+          #section1 {
+                    flex-direction: column;
+          }
+
+          #banner-image {
+                    margin-left: 0;
+                    margin-bottom: 1rem;
+          }
+
+          #header-posts-populares {
+                    padding-right: 1rem;
+          }
+
+          #section2 {
+                    flex-direction: column;
+          }
+
+          #header-banners-articles h3 {
+                    margin-left: 0;
+          }
+
+          #h3-link {
+                    padding-left: 0;
+          }
+
+          #banners-section-02 {
+                    grid-template-columns: 1fr;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+          }
+
+          #div-section-side-categories {
+                    margin-right: 0;
+          }
+
+          #header-bar-section-categories {
+                    padding-right: 1rem;
+                    margin-right: 0;
+          }
+
+          #li-01 span, #li-02 span, #li-03 span, #li-04 span {
+                    padding-left: 0;
+                    margin-left: 1rem;
+          }
+}
+
+/* Media Queries - Smartphones */
+@media (max-width: 480px) {
+          #h1-titulo {
+                    font-size: 1.2rem;
+                    padding-left: 0.5rem;
+          }
+
+          #header-posts-populares {
+                    font-size: 1rem;
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
+          }
+
+          #banners-section-02 {
+                    grid-template-columns: 1fr;
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
+                    gap: 1rem;
+          }
+
+          #banners-section-02 li h4 {
+                    font-size: 1rem;
+          }
+
+          #banners-section-02 li h5 {
+                    font-size: 0.8rem;
+          }
+
+          #section1 ul li {
+                    flex-direction: column;
+          }
+
+          #header-bar-section-categories {
+                    font-size: 0.4rem;
+                    padding-right: 0.5rem;
+          }
+}
+
+
+
+
+
